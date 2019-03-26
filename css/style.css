@@ -1,0 +1,806 @@
+.custom-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+.line {
+    width: 80px;
+    background: #bfbfbf;
+    height: 2px;
+}
+
+.right-line {
+  margin-right: -1px;
+}
+
+.left-line {
+  margin-left: -1px;
+}
+
+.circle1 {
+  height: 5px;
+  background: #bfbfbf;
+  width: 5px;
+  border-radius: 50%;
+}
+
+/* Header */
+
+header {
+  background-color: #fb4c4c;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+.top-bar {
+  display: flex;
+  padding: 10px 0;
+}
+
+.list-styles {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-list a {
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  background-color: #e8e8e8;
+  z-index: 9999;
+}
+
+nav li {
+  padding: 10px 5px;
+}
+
+nav li a {
+  color: #000 !important;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  text-align: center;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.brand-name {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background-color: #fb4c4c;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+.brand-name span {
+  color: #000;
+  background-color: #e8e8e8;
+  padding: 4px;
+}
+
+.shop-icons i{
+  font-size: 0.8rem;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+.number-6 {
+  content: '';
+  position: absolute;
+  top: 9px;
+  right: 2px;
+  color: #fff;
+  font-size: 0.3rem;
+  height: 15px;
+  width: 15px;
+  padding: 3px 4px;
+  background-color: #fb4c4c;
+  border-radius: 50%;
+}
+
+.overlay ul .active {
+  background-color: #fff;
+}
+
+/* Banner Content */
+
+.race-cycle, .summer-cycle {
+  display: inline;
+  border: 5px solid #000;
+  font-size: 2.2rem;
+}
+
+.banner-div {
+  padding: 120px 0;
+  max-width: 305px;
+}
+
+.summer-div {
+  max-width: 305px;
+}
+
+.race1 {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.race2 {
+  color: #fff;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+.img-bg img {
+  width: 100%;
+}
+
+.banner-offer h1, .summer-off h1{
+  font-size: 4rem;
+  color: #fff;
+}
+
+.banner-offer p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.btn1 {
+  background-color: #fb4c4c;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 7px 25px;
+  border-radius: 1rem;
+}
+
+.collection1 {
+  bottom: -35px;
+}
+
+.collect {
+  margin-top: -32px;
+}
+
+.collection {
+  background-color: #f9f9f9;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.para2 {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.pics {
+  margin: 80px auto;
+}
+
+.pics1 * {
+  height: 250px;
+}
+
+#carousel1 {
+  margin: 80px auto;
+}
+
+.shoe-bg {
+  background-image: url("../images/shoe.png");
+  background-size: cover;
+}
+
+.gym-bg {
+  background-image: url("../images/gym.png");
+  background-size: cover;
+}
+
+.kit-bg {
+  background-image: url("../images/kit.png");
+  background-size: cover;
+}
+
+.volley-bg {
+  background-image: url("../images/volleyball.jpg");
+  background-size: cover;
+}
+
+.shoe-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgba(232, 232, 232, 0.5);
+  padding-right: 5px;
+}
+
+.gym-text {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.kit-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 80px 85px;
+}
+
+.volley-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 65px 65px;
+}
+
+/* Products */
+
+.img-bg {
+  background-color: #f7f7f7;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colom2 {
+  height: 320px;
+}
+
+.products .price {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.products .price span {
+  color: #fb4c4c;
+}
+
+.para {
+  font-size: 0.9rem;
+}
+
+.icons1 i {
+  font-size: 0.5rem;
+  color: gray;
+}
+
+.btn2 {
+  background-color: #fb4c4c;
+  color: #fff;
+  font-size: 0.6rem;
+  padding: 0 20px;
+  border-radius: 2rem;
+}
+
+.buy-now i {
+  background-color: #dcdcdc;
+  font-size: 0.7rem;
+  padding: 8px 14px;
+  border-radius: 1rem;
+  margin: 0 5px;
+}
+
+.new {
+  content: '';
+  top: -19px;
+  left: 0;
+  background: #00ca00;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.7rem;
+  height: 45px;
+  width: 45px;
+  padding: 14px 9px;
+}
+
+.new1 {
+  content: '';
+  top: -19px;
+  left: 0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.7rem;
+  height: 45px;
+  width: 45px;
+  padding: 14px 9px;
+  background-color: #4da3ff;
+}
+
+.slide1 {
+  font-size: 0.7rem;
+  color: #fff;
+  background-color: #fb4c4c;
+  padding: 5px 15px;
+  border-radius: 1rem;
+}
+
+#carousel {
+  padding: 40px 0;
+}
+
+#carousel .slide2{
+  width: 13%;
+}
+
+.slide2 {
+  opacity: 1;
+}
+
+.hot-deal1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.dumbell {
+  background-image: url("../images/dumbell.png");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  color: #fff;
+}
+
+.tennis {
+  background-image: url("../images/tennis.png");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  color: #fff;
+}
+
+.dumbell-deal h2{
+  background-color: rgba(251, 76, 76, 0.8);
+  padding: 8px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.tennis-deal h2 {
+  background-color: rgba(243, 243, 243, 0.8);
+  padding: 8px;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #000;
+}
+
+.new2 {
+  content: '';
+  top: -20px;
+  left: -25px;
+  background: #bfbf0f;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.7rem;
+  height: 45px;
+  width: 45px;
+  padding: 14px 9px;
+}
+
+.new3 {
+  content: '';
+  top: -20px;
+  left: -25px;
+  background: #4da3ff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.7rem;
+  height: 45px;
+  width: 45px;
+  padding: 14px 9px;
+}
+
+.time li{
+  border: 2px solid gray;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.time li p {
+  font-size: 0.7rem;
+}
+
+.time li span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.slide3 {
+  width: 8%;
+}
+
+/* TABS */
+
+.sellers-tab li {
+  border-bottom: 1px solid lightgray;
+}
+
+.sellers-tab li .active {
+  color: #fb4c4c;
+  border-bottom: 2px solid #fb4c4c;
+}
+
+
+.sellers-tab li a{
+  color: #000;
+  font-size: 0.6rem;
+}
+
+#top-seller .price {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+#top-seller .price span {
+  color:  #fb4c4c;
+}
+
+.img1 {
+  height: 250px !important;
+}
+
+/* TREADMILLS */
+
+.treadmill-off {
+  background-image: url("../images/treadmill-back.jpg");
+  background-size: cover;
+}
+
+.treadmill-overlay {
+  background-color: rgba(251, 76, 76, 0.95);
+}
+
+.content-box .buy-now {
+  display: none;
+}
+
+.active-box .buy-now {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.active-box .icons1 {
+  display: none;
+}
+
+.colom1 {
+  height: 380px;
+}
+
+.summer-off {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 10px;
+}
+
+.cycle1 {
+  background-color: #000;
+  color: #fb4c4c;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.cycle2 {
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: 300;
+}
+
+.summer-off h5 {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.summer-off p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.summer-off .btn1 {
+  background-color: #000;
+}
+
+/* Special Product */
+
+.special-product .img2{
+  height: 120px;
+  padding: 15px;
+}
+
+.special-product p {
+  font-size: 0.8rem;
+}
+
+.special-product p span {
+  color: #fb4c4c;
+}
+
+.special-product .btn2 {
+  padding: 0 10px;
+  border-radius: 1rem;
+}
+
+.special-product .buy-now i {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#special-product .slide2 {
+  width: 13%;
+}
+
+#carousel2 {
+  margin-top: 40px
+}
+
+.services {
+  margin: 50px 0;
+}
+
+.service-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  background-color: #000;
+  margin-left: 1rem;
+}
+
+.service-div {
+  border: 5px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.white-bg {
+  background-color: #fff;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 1.9rem;
+}
+
+.black-bg {
+  color: #fff;
+  font-weight: 300;
+  padding: 8px;
+  font-size: 1.7rem;
+}
+
+/* Trendy Images */
+
+.trendy-img p {
+  font-size: 0.9rem;
+}
+
+.trendy-img p span {
+  color: #fb4c4c;
+}
+
+.trend1 {
+  height: 370px;
+}
+
+/* Client */
+
+#client {
+  background-image: url("../images/treadmill-back.jpg");
+  background-size: cover;
+}
+
+.client-overlay {
+  background-color: rgba(251, 76, 76, 0.95);
+}
+
+#carousel3 .color-change {
+  background-color: #000;
+}
+
+#carousel3 .color-change2 {
+  background-color: #000;
+  color: #fff;
+}
+
+.client-say img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.clients {
+  padding: 40px 0;
+  width: 60%;
+  color: #fff;
+}
+
+.client-para {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.client-say2 i {
+  font-size: 0.8rem;
+}
+
+.clients h6 {
+  font-size: 0.8rem;
+}
+
+/* Blog */
+
+.blog-details {
+  height: 230px;
+}
+
+.blog-detail {
+  position: absolute;
+  content: '';
+  top: 170px;
+  background-color: #f9f9f9;
+  padding: 20px 15px;
+  margin: 20px;
+}
+
+.blog-detail p {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.comments1 {
+  font-size: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comments1 i {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.comments1 span {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.blog-detail button {
+  background-color: #fb4c4c;
+  color: #fff;
+  border-radius: 2rem;
+  font-size: 0.6rem;
+  padding: 4px 12px;
+}
+
+.blogs0 {
+  margin-bottom: 240px;
+}
+
+/* Subscribe */
+
+.subscribe {
+  background-color: #f9f9f9;
+}
+
+.subscribe1 {
+  padding: 25px 100px;
+}
+
+.subscribe input::placeholder {
+  font-style: italic;
+  color: #bbb;
+  font-size: 0.7rem;
+}
+
+.subscribe-input {
+  padding-right: 115px;
+  border-radius: 0;
+}
+
+.black-back {
+  background-color: #000;
+  height: 100px;
+}
+
+.subscribe button {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  background-color: #fb4c4c;
+  color: #fff;
+  padding: 5px 17px;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+}
+
+.top-fix {
+  position: absolute;
+  width: 100%;
+  top: -40px;
+}
+
+.custom1 {
+  position: absolute;
+  top: 125px;
+  color: #fff;
+  padding: 4px 20px;
+  border-radius: 1rem;
+  background: #fb4c4c;
+  font-size: 0.7rem;
+}
+
+.custom2 {
+  left: 10px;
+}
+
+.custom3 {
+  right: -15px;
+}
+
+#carousel1 .custom1{
+  top: 180px;
+}
+
+#carousel1 .custom2 {
+  left: 10px;
+}
+
+#carousel1 .custom3 {
+  right: 10px;
+}
+
+#carousel2 .custom1{
+  top: 50px;
+}
+
+.custom1:focus {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+#carousel1 .custom1:focus{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+#carousel3 .color-change2:hover {
+    background-color: #fff;
+    color: #fb4c4c;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}

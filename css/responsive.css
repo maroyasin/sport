@@ -1,0 +1,363 @@
+@media only screen and (min-width: 1200px)  {
+  .container {
+    padding: 0 9rem;
+  }
+  .products .img-bg img {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  .navbar ul {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  nav li a {
+    text-align: left
+  }
+
+  .products .row2, .special-product .row {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .custom1 {
+    top: 280px;
+  }
+
+  .custom3 {
+    right: -20px;
+  }
+
+  .custom2 {
+    left: 0;
+  }
+
+  .pics {
+    margin: 60px auto;
+  }
+
+  .pics1 * {
+    height: 180px;
+  }
+
+  .kit-text {
+    padding: 50px 65px;
+  }
+
+  .volley-text {
+    padding: 30px 80px;
+  }
+
+  #carousel {
+    margin: 30px auto;
+  }
+
+  #carousel {
+    padding: 0;
+  }
+
+  #carousel1 {
+    margin: 50px auto;
+  }
+
+  .dumbell, .tennis {
+    height: 300px;
+  }
+
+  .service-bg {
+    height: 125px;
+  }
+
+  .white-bg {
+    padding: 7px;
+    font-size: 1.3rem;
+  }
+
+  .black-bg {
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+
+  .btn2 {
+    font-size: 0.5rem;
+    padding: 0 14px;
+  }
+
+  .buy-now i {
+    font-size: 0.6rem;
+    padding: 8px 10px;
+  }
+
+  #carousel1 .custom2 {
+    left: 10px;
+  }
+
+  #carousel1 .custom3 {
+    right: 5px;
+  }
+
+  #carousel2 .custom2 {
+    left: 0;
+  }
+
+  #carousel2 .custom3 {
+    right: -18px;
+  }
+
+  #carousel1 .custom1 {
+    top: 145px;
+  }
+
+  #carousel2 .custom1 {
+    top: 165px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-bar {
+    font-size: 0.5rem;
+  }
+
+  .custom1 {
+    top: 285px !important;
+  }
+
+  .header-list a {
+    margin-left: 0;
+    padding: 0 5px;
+  }
+
+  .top-bar > :first-child {
+    margin-right: 1rem !important;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  .banner-offer {
+    justify-content: center !important;
+  }
+
+  .pics1 * {
+    height: 140px;
+  }
+
+  .kit-text {
+    padding: 35px 65px;
+  }
+
+  .pics1 {
+    margin: 60px auto 40px;
+  }
+
+  .new, .new1 {
+    top: -14px;
+    height: 30px;
+    width: 30px;
+    padding: 8px 6px;
+    font-size: 0.5rem;
+  }
+
+  .slide3 {
+    width: 15%;
+  }
+
+  .sellers-tab li a {
+    font-size: 0.5rem;
+    padding: 5px 10px;
+  }
+
+  .service-bg {
+    margin: 0.5rem 4rem !important;
+    height: 80px;
+  }
+
+  .blog2 {
+    margin-bottom: 150px;
+  }
+
+  .summer-off {
+    height: 280px;
+  }
+
+  .custom2 {
+    left: 5px;
+  }
+
+  .custom3 {
+    right: -15px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .top-bar {
+    display: block;
+    font-size: 0.6rem;
+  }
+
+  .special-product .img-bg {
+    width: auto;
+    height: auto;
+  }
+
+  .special-product .row {
+    justify-content: center;
+  }
+
+  .contact1 {
+    margin-bottom: 5px;
+  }
+
+  .contact2 {
+    margin-bottom: 10px;
+  }
+
+  .pics1 * {
+    padding-right: 0 !important;
+    height: 200px;
+  }
+
+  .pics {
+    margin-bottom: 30px;
+  }
+
+  .banner-div {
+    padding: 60px 0;
+  }
+
+  .race-cycle, .summer-cycle {
+    font-size: 1.8rem;
+  }
+
+  .banner-offer h1, .summer-off h1 {
+    font-size: 3.5rem;
+  }
+
+  .banner-offer p {
+    font-size: 0.8rem;
+  }
+
+  .btn1 {
+    padding: 6px 14px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .para2 {
+    font-size: 0.6rem;
+  }
+
+  .dumbell-deal h2, .tennis-deal h2 {
+    font-size: 1.2rem;
+  }
+
+  .new3, .new2 {
+    top: -19px;
+    left: -17px;
+    font-size: 0.6rem;
+    height: 35px;
+    width: 35px;
+    padding: 11px 6px;
+  }
+
+  .sellers-tab {
+    margin-top: 2rem !important;
+  }
+
+  .service-bg {
+    margin: 0.5rem 2rem !important;
+  }
+
+  .trend1 .img-bg {
+    height: 170px !important;
+  }
+
+  .trend1 img {
+    height: 100%;
+  }
+
+  .products .row2 {
+    padding: 1.5rem 3rem;
+    justify-content: center;
+  }
+
+  .blog2 {
+    margin-bottom: 200px;
+  }
+
+  .trend1 {
+    height: 280px;
+  }
+
+  .subscribe1 {
+    padding: 25px 10px;
+  }
+
+  .clients {
+    width: 75%;
+  }
+
+  .row2 {
+    height: auto;
+  }
+
+  .products .img-bg {
+    height: 170px;
+  }
+
+  .colom2 {
+    height: 300px;
+    max-width: 220px;
+    flex: 0 0 220px;
+  }
+
+  .products .img-bg img {
+    height: 100%;
+  }
+
+  #carousel .custom1 {
+    top: 565px !important;
+  }
+
+  .custom2 {
+    left: 10px;
+  }
+
+  .custom3 {
+    right: 0;
+  }
+
+  #carousel2 .custom2 {
+    left: 10px;
+  }
+
+  #carousel2 .custom3 {
+    right: 0;
+  }
+
+  #carousel2 .custom1 {
+    top: 470px !important;
+  }
+
+  .slide2 {
+    width: 20%;
+  }
+
+  .slide1 {
+    padding: 5px 10px;
+  }
+
+  .slide4 {
+    justify-content: center !important;
+  }
+}
